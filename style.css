@@ -12,3 +12,11 @@
 .flexbox-item-1{
     min-height: 100px;
 }
+
+/*sample guide
+nav {
+  min-height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  
+}
