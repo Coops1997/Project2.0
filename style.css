@@ -4,3 +4,17 @@
     display: flex;
     flex-flow: row wrap;
 }
+
+.section {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
