@@ -1,22 +1,164 @@
-.flexbox-container {
-    display: flex;
+* {
+  font-family: "Raleway", sans-serif;
 }
 
-.flexbox-item {
-    width: 200px;
-    margin: 30px;
-    border: 3px solid #333;
-    backgroud-color: #dfdfdf
+body {
+    margin: 0;
+    padding: 0;
+    
 }
 
-.flexbox-item-1{
-    min-height: 100px;
+main {
+  min-height: 400px;
+
 }
 
-//*sample guide for navbar
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#wrapper {
+  margin: 0 auto;
+/*  display: grid;
+  grid-gap: 10px;*/
+  
+}
+
 nav {
   min-height: 50px;
   display: flex;
   flex-flow: row wrap;
   
 }
+
+header {
+  padding: 0 20px 5px 20px;
+}
+
+#logo_box{
+  width: 70%;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+  margin: 15px 0 0 5px;
+}
+
+
+#links {
+  text-align: end;
+  font-weight: 500;
+  
+}
+
+#links a{
+  display: inline-block;
+  margin-left: 25px; 
+  line-height: 60px;
+  text-decoration: none;
+}
+
+#links :nth-child(2){
+  margin-left: 35px; 
+}
+
+#links a.active{
+  border-top: 1px solid #0065fc;
+  color: #0065fc;
+}
+
+#sign_up a{
+  display: inline-block;
+  margin-left: 65px; 
+  margin-top: 2px;
+  line-height: 60px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0065fc;
+}
+
+/* SEARCH SECTION */
+
+#search {
+
+  min-height: 100px;
+  padding: 6px;
+}
+
+#search_bar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 40px;
+}
+
+#search_bar i{
+  border: 1px solid  #deebff;
+  padding: 6px;
+  padding-top: 10px;
+  background-color: #deebff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 25px;
+  text-align: center;
+
+}
+
+#search_bar input{
+  border: 1px solid  #deebff;
+  padding: 6px;
+
+}
+
+#search_bar button{
+  border: 1px solid  #deebff;
+  padding: 6px;
+  color: #deebff;
+  background-color: #0065fc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+
+#search p{
+  font-weight: bold;
+}
+
+#search h5{
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.short_search{
+  display: none;
+}
+
+/* FILTERS */
+
+#filters{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.filter_part{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  border: none;
+}
+
+.filter_element{
+  border: 1px solid  #deebff;
+  min-width: 120px;
+  margin-right: 25px;
+  border-radius: 25px;
+  padding-right: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#filters i{
+  background-color: #deebff;
