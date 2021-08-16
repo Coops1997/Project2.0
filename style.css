@@ -203,6 +203,14 @@ header {
     flex-direction: row;
 }
 
+.most pop{
+  background-color: grey;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .footer{
     background-color: grey;
     display: flex;
