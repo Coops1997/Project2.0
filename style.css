@@ -1,5 +1,8 @@
+*{
+  font-family: "Raleway", sans-serif;
+}
+
 body {
-   font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +23,7 @@ a {
   
 }
 
-nav {
+.nav {
   width:100%;
   min-height: 50px;
   display: flex;
@@ -28,7 +31,7 @@ nav {
   
 }
 
-header {
+.header {
   padding: 0 20px 5px 20px;
 }
 
