@@ -184,7 +184,7 @@
 /* INFO ICON */
 
 #info {
-  padding: 0;
+  padding: 0px;
 }
 
 #info i {
@@ -554,9 +554,9 @@ footer ul li{
 }
 
 footer a{
-  text-decoration: ;
-  margin: ;
-  colour: ;
+  text-decoration: underline;
+  margin: 10px;
+  colour: black;
 }
 
 #about a{
@@ -631,3 +631,218 @@ a:active {
   color: black;
 }
 /* MEDIA QUERIES */
+
+@media all and (max-width: 1023px) {
+
+  nav {
+    width: 100%;
+  }
+
+  header {
+    padding: 10px;
+  }
+  #signu_up {
+    order: 1;
+    width: 5px;
+    margin-top: 5px;
+  }
+
+  #signu_up {
+    margin-left: 5px;
+  }
+
+  #Logo_box {
+    width: 10px;
+  }
+
+  #links {
+    display: grid;
+    width: 10px;
+    order: 2;
+    padding: 5px;
+    margins: 5px;
+    borders: none;
+    text-align: start;
+  }
+
+  #links a {
+    width: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #blue;
+  }
+
+  #links a.active {
+    border-bottom: 1px solid #blue;
+    border-top: none;
+  }
+
+  #links :nth-child {
+    margin-left: 20px;
+  }
+
+  #search_bar {
+    min-height: 100px;
+    padding: 5px;
+  }
+
+  .long_search {
+    padding:  10px;
+    min-width: 50px;
+  }
+
+  .short_search {
+    padding: 5px;
+    min-width: 25px;
+  }
+
+  .short_search i {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  #filters {
+    padding: 10px;
+    width: 5px;
+    margin: 10px;
+    order: 3;
+  }
+
+  .filter_element {
+    border: 1px solid #deebff;
+    min-width: 120px;
+    margin-right: 25px;
+    border-radius: 25px;
+    padding-right: 10px;
+  }
+
+  #info {
+    padding: 5px;
+  }
+
+  #info i {
+    border: 1px solid #deebff;
+  color: #0065fc;
+  border-radius: 50%;
+  padding: 10px;
+  width: 15px;
+  text-align: center;
+  position: relative;
+  top: -10px;
+  }
+
+  .info_text {
+    width: 10px;
+    padding:5px;
+    text-align: left;
+  }
+
+  #accom {
+   padding: 10px;
+  }
+
+  #accom_list {
+
+  }
+
+  #accom_list h3 {
+
+  }
+
+  #List {
+
+  }
+
+  .show_more {
+   text-align: left;
+   margin-left: 5px;
+  }
+
+  #mostpop{
+   padding: 10px;
+  }
+
+  .mostpop_title{
+     padding: 10px;
+  }
+
+  .mostpop_price{
+
+  }
+
+  .mostpop_rating{
+
+  }
+
+  .mostpop_title_icon{
+
+  }
+
+  .mostpop_listing{
+
+  }
+
+  #activities {
+    **activities elements: list, description, images, actnumber/item
+  }
+
+  .footer {
+    padding:;
+    width:;
+    text-align:;
+  }
+  .footer ul{
+    min-width: ;
+  }
+
+  footer ul li{
+    padding:  ;
+  }
+
+  footer a{
+
+  }
+  .about {
+    padding:  ;
+    margin-left: ;
+    min-height: ;
+    width: ;
+  }
+
+  .about a{
+    padding:  5px;
+    margin-left: 10px;
+    min-height: 120px;
+    width: 30%;
+  }
+
+  .assistance{
+    padding: 5px;
+    margin: 10px;
+    min-height: 120px;
+    width: 30%;
+  }
+
+  .assistance a{
+    padding: 5px;
+    margin: 10px;
+    min-height: 120px;
+    width: 30%;
+  }
+
+  .our accomodation{
+    padding:  5px;
+    margin-right: 10px;
+    min-height: 120px;
+    width: 30%;
+  }
+
+  .our accomodation a{
+    padding:  5px;
+    margin-right: 10px;
+    min-height: 120px;
+    width: 30%;
+  }
+
+}
