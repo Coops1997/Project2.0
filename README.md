@@ -16,5 +16,6 @@ Requirements:
 	- Colors (#0065FC blue| #DEEBFF light blue| #F2F2 grey);
 	- Font used is Raleway;
 
-Live Project:
-- Project URL on Netlify: https://silly-curie-af94bd.netlify.app/
+live Project:
+
+	- Project URL on Netlify: https://silly-curie-af94bd.netlify.app/
