@@ -634,215 +634,228 @@ a:active {
 
 @media all and (max-width: 1023px) {
 
-  nav {
+nav{
     width: 100%;
+  
   }
 
   header {
-    padding: 10px;
+    padding: 0;
   }
-  #signu_up {
-    order: 1;
-    width: 5px;
-    margin-top: 5px;
-  }
-
-  #signu_up {
-    margin-left: 5px;
-  }
-
-  #Logo_box {
-    width: 10px;
-  }
-
-  #links {
-    display: grid;
-    width: 10px;
+  #sign_up{
     order: 2;
-    padding: 5px;
-    margins: 5px;
-    borders: none;
+    width: 28%;
+    margin-top: 2px;
+  }
+
+  #sign_up a{
+    margin-left: 30px;
+  }
+
+  #logo_box{
+    width: 70%;
+  }
+  
+  #links {
+    display: flex;
+    width: 100%;
+    order: 3;
+    padding: 0;
+    margin: 0;
+    border: none;
     text-align: start;
   }
 
-  #links a {
-    width: 5px;
-    margin: 10px;
-    padding: 5px;
+  #links a{
+    width: 50%;
+    margin: 0 ;
+    padding: 0 ;
     text-align: center;
-    border-bottom: 1px solid #blue;
+    border-bottom: 1px solid #ccc;
   }
 
-  #links a.active {
-    border-bottom: 1px solid #blue;
+  #links a.active{
+    border-bottom: 1px solid blue;
     border-top: none;
   }
 
-  #links :nth-child {
-    margin-left: 20px;
+  #links :nth-child(2){
+    margin-left: 0; 
   }
 
-  #search_bar {
-    min-height: 100px;
-    padding: 5px;
+  #search_bar i{
+    padding: 6px;
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 25px;
+    text-align: center;
+  
   }
 
-  .long_search {
-    padding:  10px;
-    min-width: 50px;
+  .long_search{
+    display:none
   }
 
-  .short_search {
-    padding: 5px;
-    min-width: 25px;
+  .short_search{
+    display: block;
+    color: #0065fc;
+    background-color: #0065fc;
+    border-radius: 10px;
+    margin-left: -5px;
   }
 
-  .short_search i {
-    padding: 5px;
-    margin: 10px;
+  .short_search i{
+    color: white;
+    background-color: #0065fc !important;
+    border: none !important;
+  }
+
+  .filter_title {
+    display: flex;
+    flex-direction: row;
   }
 
   #filters {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter_element{
+    margin-right: 35px;
+    margin-top: 10px;
+
+  }
+
+  #info{
+    display: flex;
+    
+    padding: 15px;
+  }
+  
+  #info i{
     padding: 10px;
+    border-radius: 50%;
+    height: 5px;
     width: 5px;
-    margin: 10px;
-    order: 3;
+    margin-top: 15px;
+    font-size: xx-small;
+    
   }
 
-  .filter_element {
-    border: 1px solid #deebff;
-    min-width: 120px;
-    margin-right: 25px;
-    border-radius: 25px;
-    padding-right: 10px;
+  .info_text{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 5px;
+  }
+    
+  #accom{
+    display: flex;
+    flex-direction: column;
+    
   }
 
-  #info {
-    padding: 5px;
+  #accom_list{
+    width: 100%;
+    order: 2;
+    background-color: white;
+    
   }
 
-  #info i {
-    border: 1px solid #deebff;
-  color: #0065fc;
-  border-radius: 50%;
-  padding: 10px;
-  width: 15px;
-  text-align: center;
-  position: relative;
-  top: -10px;
+  #accom_list h3{
+    margin-left: 10px;
+    
   }
 
-  .info_text {
-    width: 10px;
-    padding:5px;
-    text-align: left;
+  #list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    
   }
 
-  #accom {
-   padding: 10px;
-  }
-
-  #accom_list {
-
-  }
-
-  #accom_list h3 {
-
-  }
-
-  #List {
-
-  }
-
-  .show_more {
-   text-align: left;
-   margin-left: 5px;
+  .show_more{
+    margin-left: 0;
   }
 
   #mostpop{
-   padding: 10px;
+    width: 100%;    
+    margin-left: -15px;
+    margin-bottom: 15px;
+    border-radius: 0;
+    
   }
 
   .mostpop_title{
-     padding: 10px;
+    margin: 10px 0 0 0;
   }
 
   .mostpop_price{
-
+    margin: 10px 0 0 0;
   }
 
   .mostpop_rating{
-
+    margin: 30px 0 10px 0;
   }
 
   .mostpop_title_icon{
-
+    margin-left: -20px;
+  }
+  
+  #mostpop_list {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    padding: 0;
   }
 
-  .mostpop_listing{
-
-  }
-
-  #activities {
-    **activities elements: list, description, images, actnumber/item
-  }
-
-  .footer {
-    padding:;
-    width:;
-    text-align:;
-  }
-  .footer ul{
-    min-width: ;
-  }
-
-  footer ul li{
-    padding:  ;
-  }
-
-  footer a{
-
-  }
-  .about {
-    padding:  ;
-    margin-left: ;
-    min-height: ;
-    width: ;
-  }
-
-  .about a{
-    padding:  5px;
+  .mostpop_listing {
+    width: 95%;
+    padding: 0;
     margin-left: 10px;
-    min-height: 120px;
-    width: 30%;
+
+  }
+  
+  #activities {
+    display: block;
+    margin: 0;
+    padding: 0;
+    order: 3;
   }
 
-  .assistance{
-    padding: 5px;
-    margin: 10px;
-    min-height: 120px;
-    width: 30%;
+  #activities_list {
+    display: flex;
+    flex-direction: column; 
+    margin: 15px auto 50px auto;
+    width: 90%;
+    order: 3;
   }
 
-  .assistance a{
-    padding: 5px;
-    margin: 10px;
-    min-height: 120px;
-    width: 30%;
+  .act_desc{
+    height: 20px;
   }
 
-  .our accomodation{
-    padding:  5px;
-    margin-right: 10px;
-    min-height: 120px;
-    width: 30%;
+  .act_image_1, .act_image_4{
+    height: 150px;
   }
 
-  .our accomodation a{
-    padding:  5px;
-    margin-right: 10px;
-    min-height: 120px;
-    width: 30%;
+  .act5{
+    margin-top: 0;
   }
 
+  #footer {
+    display: flex;
+    flex-direction: column;  
+
+  }
+
+  #about, #our_accom, #assistance{
+    width: 90%;
+    margin: 20px;
+
+  }
+  
 }
