@@ -1,4 +1,5 @@
 Samuel Cooper:
+
 Repo for Open Classroom Project 2 in Web Developer course;
 
 Objectives:
