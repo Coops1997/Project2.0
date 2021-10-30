@@ -304,41 +304,7 @@
 
 }
 
-#acc1 {
-  background-image: url("../html_images/aim1.jpg")
-  background-size: cover;
-  background-position: center;
-}
 
-#acc2 {
-  background-image: url("../html_images/aim2.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#acc3 {
-  background-image: url("../html_images/aim3.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#acc4 {
-  background-image: url("../html_images/aim4.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#acc5 {
-  background-image: url("../html_images/aim5.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#acc6 {
-  background-image: url("../html_images/aim1.jpg")
-  background-size: cover;
-  background-position: center;
-}
   
 
 /* MOST POPULAR SECTION */
@@ -405,24 +371,6 @@
   margin-top: -10px;
 }
 
-#mostpop1 {
-  background-image: url("../html_images/mp1.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#mostpop2 {
-  background-image: url("../html_images/mp2.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-#mostpop3 {
-  background-image: url("../html_images/mp3.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
 
 /* ACTIVITIES SECTION */
 
@@ -469,43 +417,6 @@
 
 }
 
-.activity_image_1 {
-  background-image: url("");
-  background-position: center;
-  background-size: cover;
-  height: 360px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  
-}
-#activ2 {
-  background-image: url("../html_images/act1.jpg")
-  background-size: cover;
-  background-position: center;
-}
-#activ3 {
-  background-image: url("../html_images/act2.jpg")
-  background-size: cover;
-  background-position: center;
-}
-#activ4 {
-  background-image: url("../html_images/act3.jpg")
-  background-size: cover;
-  background-position: center;
-}
-#activ5 {
-  background-image: url("../html_images/act4.jpg")
-  background-size: cover;
-  background-position: center;
-}
-#activ6 {
-  background-image: url("../html_images/act5.jpg")
-  background-size: cover;
-  background-position: center;
-}
-
-
-
 /* Footer */
 
 footer {
@@ -523,13 +434,12 @@ footer ul{
 footer ul li{
   padding-left: 10px;
   display: inline-block;
-  float: left;
 }
 
 footer a{
   text-decoration: underline;
   margin: 10px;
-  colour: black;
+  color: black;
 }
 
 #about a{
