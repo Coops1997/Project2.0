@@ -20,8 +20,8 @@ a {
 
 #wrapper {
   margin: 0 auto;
-/*  display: grid;
-  grid-gap: 10px;*/
+  display: grid;
+  grid-gap: 10px;
   
 }
 
@@ -419,7 +419,7 @@ header {
 
 .mostpop_image {
   height: 140px;
-  width: 39%;
+  width: 32%;
   display: inline-block;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
